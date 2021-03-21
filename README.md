@@ -14,4 +14,6 @@ The main objective is to connect the frontend provided by them with the backend 
 - Delete a user by id from the API.
 - Verify that the frontend works as expected.
 
+You can visit the full website and create a fake user clicking [HERE](https://martinezga.github.io/challenge-basic-rest-api/).
+
 ⌨️ with ❤️ by [martinezga](https://github.com/martinezga) 😊
