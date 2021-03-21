@@ -1,0 +1,81 @@
+form {
+  box-sizing: border-box;
+  padding: 10px;
+  background-color: #7bdff2;
+  display: flex;
+  flex-direction: column;
+}
+
+form input[type="submit"] {
+  width: 420px;
+  background-color: #b2f7ef;
+  padding: 8px;
+  font-weight: bolder;
+  border-radius: 5px;
+  border: 0px solid;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+form input[type="submit"]:hover {
+  background-color: #7bdff2;
+  color: white;
+  border: 1px solid #b2f7ef;
+}
+
+form input {
+  width: 400px;
+  outline: 0px;
+}
+
+form select {
+  width: 420px;
+  margin-bottom: 10px;
+}
+
+label {
+  color: white;
+  font-weight: bolder;
+  text-shadow: 1px 1px 2px #f7d6df;
+  letter-spacing: 2px;
+  margin-top: 5px;
+}
+
+h2 {
+  user-select: none;
+  color: white;
+  font-size: 40px;
+  text-shadow: 1px 1px 2px #f7d6df;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  flex: 1;
+  min-height: 100vh;
+}
+
+#data {
+  background-color: #f7d6df;
+  box-sizing: border-box;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#data div {
+  border: 1px solid #7bdff2;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+  background-color: #eef7f6;
+  display: flex;
+  flex-direction: column;
+  font-weight: bolder;
+  width: 40%;
+}
